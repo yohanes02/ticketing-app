@@ -2,7 +2,7 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class="active">Dashboard <?php echo $this->session->userdata('id_jabatan');?></li>
+				<li class="active">Dashboard</li>
 			</ol>
 		</div><!--/.row-->
 		

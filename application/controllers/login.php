@@ -48,10 +48,10 @@ function index()
 	}
 	else
 	{
-	$this->session->set_flashdata("msg", "<div class='alert bg-danger' role='alert'>
-			    <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-			    <svg class='glyph stroked empty-message'><use xlink:href='#stroked-empty-message'></use></svg> username / Password salah.
-			    </div>");
+	$this->session->set_flashdata("msg", '<div class="alert bg-danger alert-dismissible" role="alert">
+	<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	<strong>Error!</strong> Username / Password salah, coba periksa kembali.
+  </div>');
 	redirect('login');
 	}
 
