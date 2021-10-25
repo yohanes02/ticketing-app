@@ -83,6 +83,9 @@ body {
 												<input class="form-control" placeholder="Password" name="password" type="password" value="" required>
 											</div>
 										</div>
+										<a href="#">
+											<span>Forgot Password ?</span>
+										</a>
 										<div class="form-group">
 											<input type="submit" class="btn btn-lg btn-primary btn-block" value="Sign in">
 										</div>
